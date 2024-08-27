@@ -41,6 +41,6 @@ public class PagamentoSalario {
 
         sistemaPagamento.processarPagamento(1);
         sistemaPagamento.processarPagamento(2);
-        sistemaPagamento.processarPagamento(3); // Funcionário inexistente
+        sistemaPagamento.processarPagamento(3);
     }
 }
