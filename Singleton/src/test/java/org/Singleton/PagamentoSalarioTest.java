@@ -35,11 +35,9 @@ public class PagamentoSalarioTest {
         String expectedOutput = "Pagamento de R$5000 realizado para o funcionário ID: 1\n";
         String actualOutput = outContent.toString();
 
-        // Imprimindo para verificar a diferença
         System.out.println("Esperado: " + expectedOutput);
         System.out.println("Atual: " + actualOutput);
 
-        // Normalização e comparação
         assertEquals(expectedOutput.trim(), actualOutput.trim());
     }
 
@@ -52,11 +50,9 @@ public class PagamentoSalarioTest {
         String expectedOutput = "Funcionário ID: 99 não encontrado.\n";
         String actualOutput = outContent.toString();
 
-        // Imprimindo para verificar a diferença
         System.out.println("Esperado: " + expectedOutput);
         System.out.println("Atual: " + actualOutput);
 
-        // Normalização e comparação
         assertEquals(expectedOutput.trim(), actualOutput.trim());
     }
 
